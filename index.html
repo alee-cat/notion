@@ -26,15 +26,18 @@ h1 {
 /*CSS START*/
 
 .full-table {
-    display: table;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
     height: 100%;
     width: 100%;
 }
 
 .table-cell {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
+    display: flex;  /* Use flexbox */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .card {
