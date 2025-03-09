@@ -26,18 +26,15 @@ h1 {
 /*CSS START*/
 
 .full-table {
-    display: flex;
-    justify-content: center;  /* Center horizontally */
-    align-items: center;  /* Center vertically */
+    display: table;
     height: 100%;
     width: 100%;
 }
 
 .table-cell {
-    display: flex;  /* Use flexbox */
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .card {
@@ -47,12 +44,9 @@ h1 {
     width: 80vw;
     height: 30px;
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    display: inline-block;
     box-shadow: none;
+    text-align: center;
 }
 
 .clock {
